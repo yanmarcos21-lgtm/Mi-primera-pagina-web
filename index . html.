@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marco Obregón - Currículum</title>
+  <meta name="description" content="Currículum de Marco Obregón, estudiante de Electrónica Industrial">
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; max-width: 850px; margin: 0 auto; padding: 20px; line-height: 1.5; color: #222; }
+    header { border-bottom: 3px solid #333; padding-bottom: 15px; margin-bottom: 20px; }
+    nav ul { list-style: none; display: flex; gap: 15px; padding: 0; }
+    nav a { text-decoration: none; color: #0056b3; }
+    section { margin-bottom: 30px; }
+    h1 { margin-bottom: 5px; }
+    h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    figure { margin: 0; }
+    figure img { width: 100%; max-height: 280px; object-fit: cover; border-radius: 8px; }
+    address { font-style: normal; }
+    footer { border-top: 1px solid #ccc; padding-top: 10px; margin-top: 30px; font-size: 0.9em; color: #555; }
+    fieldset { margin-top: 10px; }
+    label { display: block; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <figure>
+      <img src="https://placehold.co/850x280/1a3a5c/ffffff?text=Electr%C3%B3nica+Industrial" alt="Banner de Electrónica Industrial">
+      <figcaption>Electrónica Industrial</figcaption>
+    </figure>
+    <h1>Marco Obregón</h1>
+    <p><em>Estudiante de Electrónica Industrial</em></p>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy Marco Obregón, estudiante de <strong>Electrónica Industrial</strong>,
+        apasionado por el desarrollo de proyectos que combinan hardware y software.
+        Actualmente me encuentro ampliando mis conocimientos en programación y desarrollo web
+        como complemento a mi formación técnica.
+      </p>
+      <blockquote>
+        <p>"La curiosidad es el motor del aprendizaje."</p>
+      </blockquote>
+    </section>
+
+    <section id="formacion">
+      <h2>Formación académica</h2>
+      <dl>
+        <dt>Técnico en Electrónica Industrial</dt>
+        <dd>Universidad Antonio José Camacho — en curso</dd>
+        <dt>Curso de Desarrollo Web (HTML, CSS, Git y GitHub)</dt>
+        <dd>Formación complementaria — en curso</dd>
+      </dl>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Electrónica analógica y digital</li>
+        <li>Programación de microcontroladores (PLC, Arduino)</li>
+        <li>Lectura de planos y diagramas eléctricos</li>
+        <li>Fundamentos de HTML y control de versiones con Git</li>
+        <li>Trabajo en equipo y resolución de problemas</li>
+      </ul>
+
+      <h3>Nivel de dominio</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Habilidad</th>
+            <th>Nivel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Electrónica Industrial</td>
+            <td>Intermedio</td>
+          </tr>
+          <tr>
+            <td>Programación (Arduino/PLC)</td>
+            <td>Básico-Intermedio</td>
+          </tr>
+          <tr>
+            <td>HTML / Git / GitHub</td>
+            <td>Básico</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia y proyectos</h2>
+      <article>
+        <h3>Sistema de control automatizado</h3>
+        <p>
+          Diseño e implementación de un sistema de control automatizado como proyecto de curso,
+          integrando sensores, actuadores y un microcontrolador.
+        </p>
+        <p><time datetime="2025">2025</time></p>
+      </article>
+
+      <article>
+        <h3>Prácticas en mantenimiento eléctrico</h3>
+        <p>
+          Apoyo en tareas de mantenimiento preventivo y correctivo de instalaciones eléctricas industriales.
+        </p>
+      </article>
+    </section>
+
+    <section id="proyectos">
+      <h2>Otros proyectos e intereses</h2>
+      <ol>
+        <li>Robótica educativa</li>
+        <li>Automatización de procesos con PLC</li>
+        <li>Desarrollo web como habilidad complementaria</li>
+      </ol>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <address>
+        Correo: <a href="mailto:yanmarcos21@outlook.com">yanmarcos21@outlook.com</a><br>
+        Teléfono: <a href="tel:+573166330307">316 633 0307</a><br>
+        GitHub: <a href="https://github.com/yanmarcos21-lgtm" target="_blank" rel="noopener">github.com/yanmarcos21-lgtm</a><br>
+        Repositorio: <a href="https://github.com/yanmarcos21-lgtm/Mi-primera-pagina-web" target="_blank" rel="noopener">Mi-primera-pagina-web</a>
+      </address>
+
+      <h3>Formulario de contacto</h3>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Enviar mensaje</legend>
+
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2026">2026</time> Marco Obregón — Estudiante de Electrónica Industrial</p>
+  </footer>
+
+</body>
+</html>
